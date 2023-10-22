@@ -13,14 +13,14 @@ namespace inlämningsuppgift4_8
 
             string hittade = "";
 
-            for (int i = 0; i < kortsak.Length; i++)
+            for (int a = 0; a < kortsak.Length; a++)
             {
-                char hitta = kortsak[i];
+                char hitta = kortsak[a];
 
-                for (int j = 0; j < sträng.Length; j++)
+                for (int b = 0; b < sträng.Length; b++)
                 {
-                    char leta = sträng[j];
-                    if (hitta == leta)
+                    char utsöktabokstav = sträng[b];
+                    if (hitta == utsöktabokstav)
                     {
                         hittade = hittade + hitta;
                         break;
